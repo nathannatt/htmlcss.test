@@ -5,38 +5,68 @@ body {
   background-image: url("./images/4250438_90977.jpg");
 }
 
-h1 {
-  text-align: center;
-  font-family: "Barriecito", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 57px;
-  color: #fff;
-  margin: 3px;
-}
-
-.banner {
-  background-color: rgb(4, 175, 187);
+header {
+  background-color: rgb(27, 177, 152);
   height: 144px;
   padding: 5px;
+  width: 100%;
 }
 
 h2 {
   text-align: center;
   font-family: "Nunito", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 148, 8);
+  color: antiquewhite;
+  display: block;
+  font-size: large;
+  margin: auto;
 }
 
 p {
   text-align: center;
   font-family: "Nunito", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(141, 144, 148);
 }
 
-.firstQuestions {
-  text-align: start;
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-family: "Nunito", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(141, 144, 148);
 }
 
-svg {
-  padding: 10px;
+.headerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 34px;
+}
+
+.headerMenu {
+  display: block;
+  margin-top: -110px;
+  padding: 37px;
+  text-align: left;
+}
+
+.headerCart {
+  display: block;
+  text-align: right;
+  margin-top: -110px;
+  padding: 37px;
+}
+
+.headerAccount {
+  display: block;
+  text-align: right;
+  margin-top: -110px;
+  padding: 37px;
+}
+
+span {
+  font-weight: bolder;
 }
